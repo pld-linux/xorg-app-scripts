@@ -1,12 +1,12 @@
-Summary:	scripts application
-Summary(pl):	Aplikacja scripts
+Summary:	Few simple scripts
+Summary(pl):	Kilka prostych skryptów
 Name:		xorg-app-scripts
-Version:	0.99.2
+Version:	1.0.1
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC3/app/scripts-%{version}.tar.bz2
-# Source0-md5:	014a1119c2c207b302903157deec55f2
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/app/scripts-%{version}.tar.bz2
+# Source0-md5:	08c7f078fc351196c21db3a8206d482d
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -16,10 +16,10 @@ BuildRequires:	xorg-util-util-macros >= 0.99.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-scripts application.
+Few simple scripts.
 
 %description -l pl
-Aplikacja scripts.
+Kilka prostych skryptów.
 
 %prep
 %setup -q -n scripts-%{version}
@@ -44,6 +44,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog
+%doc COPYING ChangeLog
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*.1x*
