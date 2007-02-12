@@ -1,5 +1,5 @@
 Summary:	Few simple scripts
-Summary(pl.UTF-8):   Kilka prostych skryptów
+Summary(pl.UTF-8):	Kilka prostych skryptów
 Name:		xorg-app-scripts
 Version:	1.0.1
 Release:	1
