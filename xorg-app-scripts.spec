@@ -1,5 +1,5 @@
 Summary:	Few simple scripts
-Summary(pl):	Kilka prostych skryptów
+Summary(pl.UTF-8):   Kilka prostych skryptÃ³w
 Name:		xorg-app-scripts
 Version:	1.0.1
 Release:	1
@@ -20,8 +20,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Few simple scripts.
 
-%description -l pl
-Kilka prostych skryptów.
+%description -l pl.UTF-8
+Kilka prostych skryptÃ³w.
 
 %prep
 %setup -q -n scripts-%{version}
