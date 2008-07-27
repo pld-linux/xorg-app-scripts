@@ -2,7 +2,7 @@ Summary:	Few simple scripts
 Summary(pl.UTF-8):	Kilka prostych skryptów
 Name:		xorg-app-scripts
 Version:	1.0.1
-Release:	1
+Release:	2
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/scripts-%{version}.tar.bz2
