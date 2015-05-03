@@ -2,7 +2,7 @@ Summary:	Few simple scripts
 Summary(pl.UTF-8):	Kilka prostych skryptów
 Name:		xorg-app-scripts
 Version:	1.0.1
-Release:	2
+Release:	3
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/scripts-%{version}.tar.bz2
@@ -51,4 +51,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/fontprop.sh
 %attr(755,root,root) %{_bindir}/xauth_switch_to_sun-des-1
 %attr(755,root,root) %{_bindir}/xon
-%{_mandir}/man1/xon.1x*
+%{_mandir}/man1/xon.1*
